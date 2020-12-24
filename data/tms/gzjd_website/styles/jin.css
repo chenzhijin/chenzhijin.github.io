@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.hallwindows_sy{ background:url(../images/hallwindows_sy.png) no-repeat; width:143px; height:189px; position:absolute; left:0; bottom:0;} 
+.hallwindows_bg{background:url(../images/hallwindows_bg.png) no-repeat center top  ; }
+.windows_bg{background:url(../images/windows_bg.png) repeat-x  left 70px; max-width:1440px; margin:0 auto; position:relative; }
+.windows_bg .windowsinfo{padding-top:70px; width:1024px; overflow:hidden; margin:0 auto; height:650px;  }
+.windows_bg .windowsinfo ul{height:367px; }
+.windows_bg .windowsinfo ul .windows{ width:257px; float:left;  height:367px; }
+.windows_bg .windowsinfo ul .windows a .windowtitle{ height:52px; line-height:52px; width:257px; text-align:center; font-size:18px;color:#ffffff;}
+.windows_bg .windowsinfo ul .windows a .imgnowlady{ background:url(../images/hallwindows.jpg) no-repeat left bottom; width:257px; height:311px; display: block;}
+.windows_bg .windowsinfo ul .windows a .imgnowboy{ background:url(../images/hallwindows1.jpg) no-repeat left bottom; width:257px; height:311px; display: block;}
+.windows_bg .windowsinfo ul .windows a:hover .windowtitle{ background:#526784; }
+.windows_bg .windowsinfo ul .windows a:hover .imgnowlady,.windows_bg .windowsinfo ul .windows a:hover .imgnowboy{ background-position: left top;}
+.windows_bg .windowsinfo ul .windows .ahover .imgnowlady,.windows_bg .windowsinfo ul .windows .ahover .imgnowboy{ background-position: left top;}
+.windows_bg .windowsinfo ul .windows .ahover .windowtitle{ background:#526784; }
+.windows_bg .windowsinfo .next{ position:absolute; left:12px; top:252px; background:url(../images/hallwindows_left.png) no-repeat; width:36px; height:36px;z-index: 999; cursor:pointer;}
+.windows_bg .windowsinfo .prev{ position:absolute; right:12px; top:252px; background:url(../images/hallwindows_right.png) no-repeat;width:36px; height:36px;z-index: 999; cursor:pointer;}
+
+.hallindex_bg{ background:url(../images/hall_index_bg.png) no-repeat center top; max-width:1440px; margin:0 auto; height:720px; position:relative;}
+.hall_index_content{ width:1024px; margin:0 auto; height:570px; padding-top:76px; position: relative;}
+.hall_index_content .defaultcontent{ background:url(../images/hall_index_default_bg.png) no-repeat; margin-left:174px; padding:134px 0 0 115px;  height:437px; width:622px; position:absolute; z-index:1000; }
+.hall_index_content .defaultcontent .li1{ height:41px; color:#384957; font-size:25px; line-height:41px; }
+.hall_index_content .defaultcontent .li2{ font-size:32px; color:#5f8cc9; line-height:76px;}
+.hall_index_content .defaultcontent .li3  a{ float:left; display:inline-block;width:105px; height:26px; line-height:26px; background:url(../images/hall_index_btn.png) no-repeat; text-align:center; line-height:26px; font-size:18px; color:#ffffff; }
+.hall_index_content .defaultcontent .li3 .defbtn1{ margin:61px 0 0 100px; }
+.hall_index_content .defaultcontent .li3 .defbtn2{ margin:61px 0 0 64px;}
+
+.hall_index_content .servertypelist{ width:807px; height:374px; margin:195px 0 0 248px; display:none;position:absolute; z-index:1000; }
+.hall_index_content .servertypelist .servertypes{ float:left; display:inline-block; } 
+.hall_index_content .servertypelist .servertype1{ width:282px;}
+.hall_index_content .servertypelist .servertype2{ width:287px;}
+.hall_index_content .servertypelist .servertype3{ width:230px;} 
+
+.policeservicelist{background: url("../images/phl_bg.jpg") no-repeat center top;height: 720px;max-width: 1440px;position: relative; margin:0 auto;}
+.policeservicecontent{height: 601px; margin: 0 auto; position: relative; width: 1024px; overflow: hidden;}
+.policeservicecontent .policeservicetitle{  background: url("../images/jcbsdt_check_bg.png") no-repeat ;color: #FFFFFF; display: block; font-size: 18px; height: 51px; line-height: 48px; text-align: center; margin-top: 69px; width: 258px;}
+.policeservicecontent .policeservicelist{ overflow: hidden; background: url("../images/jcbsdt_box_bg.png") no-repeat; height: 431px;margin-left: 42px; margin-top: 53px; width: 942px;}
+.policeservicecontent .policeservicelist .servicelist_pircture{ position:absolute;width: 310px; height:337px; left:22px; bottom:12px; background: no-repeat left bottom;}
+	.policeservicelist .plist_container{width:621px;height:330px; overflow:auto; position:relative; top:33px;left:280px;}
+	.policeservicelist .plist_container .f_show{width:508px; height:299px; font-size:12px; color:#384957; margin-top:11px; margin-left:69px;line-height:20px;display:block}
+	.policeservicelist .plist_container .f_show ul li{background: url("../images/phl_f_dot.png") no-repeat  3px 8px; }
+	.policeservicelist .plist_container .f_show ul li a{ border-bottom: 1px solid #D3DADF; color: #384957; display: block; font-size: 14px; margin-left: 27px;  margin-top: 7px; padding-bottom: 8px; }
+.showarchiveinfo{ height: 300px;font-size: 12px; color: #384957; line-height: 28px;}
+
+/* .policeservicelist .return_box {bottom: 27px; height: 35px; position: absolute;right: 146px; width: 115px;}
+.policeservicelist .return_btn { background: url("../images/phl_return_btn.png") no-repeat ; display: inline-block; float: left; height: 20px; width: 21px;}
+.policeservicelist .return_font {background: url("../images/phl_return_font.png") no-repeat ; display: inline-block; float: left; height: 19px; margin-left: 14px;width: 71px;}
+.policeservicelist .close_btn{display: none; right: 146px;bottom: 26px; cursor:pointer; position: absolute; z-index: 9999;background: url(../images/public_return.png) no-repeat;  width: 37px; height:19px;}
+ */
+.policeservicelist .return_box{ width:115px; height:35px; position:absolute;bottom:27px; right:146px;}
+.policeservicelist .return_u_page{ width: 37px; height: 19px; background:url(../images/public_return.png) no-repeat;display: inline-block; position: absolute; left: 35px;}
+.policeservicelist .return_btn{ width:21px; height:20px; background:url(../images/phl_return_btn.png) no-repeat; display:inline-block; float:left;}
+.policeservicelist .return_font{ width:71px; height:19px; background:url(../images/phl_return_font.png) no-repeat; display:inline-block;float:left; margin-left:14px;}
+
+
+
+
+.policeservicelist .hallindex_foot { position: absolute;}   
+
+/*hall_temp_foot*/
+.hallindex_foot{ background:url(../images/hall_index_foot.jpg) no-repeat center top ; height:72px; text-align:center; position:fixed; left:0; bottom:0px; z-index:9999; width:100%; }
+.hallindex_foot a{ background:url(../images/hall_index_foot_btn1.png) no-repeat; display:inline-block; padding:0 19px 0 17px; width:106px; height:39px; line-height:39px; font-size:18px; color:#f7fbff; margin:19px 50px 0 0;}
+.hallopacity_bg{ background:#000; opacity:0.5;filter:alpha(opacity=50); width:100%; height:0; position:absolute; z-index:99; left:0; top:0;}
+
+.hallindex_bg .hallindex_foot { position: relative; top:1px;} 
+.hallindex_bg .hallindex_foot a { cursor:pointer; }
+.hallwindows_bg .hallindex_foot { position: relative;} 
+.phl_bg .hallindex_foot { position: absolute;} 

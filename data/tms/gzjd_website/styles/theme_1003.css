@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header_main{width:1003px;}
+.header_main .mainNav .second_menu .second_menu_con p span{padding:10px;}
+.header_main .mainNav .second_menu .second_menu_con p span a{width:48%;}
+		
+section{width:973px;}
+	.section_index_news{width:382px;}
+	.section_index_news .btns ul{width:216px;}
+	.section_index_search dt{padding:14px;}
+	.section_index_search input{width:240px;}
+	.index_catTitle dd{width:88.9%;}
+	.section_index_info .info_centerPart{width:385px; margin-left:11px;}
+	.section_index_info .info_centerPart .news a p{width:75px; padding-right:0;}
+	
+	.section_index_online .online_centerPart{width:385px; margin-left:11px;}
+	.section_index_online .online_centerPart dl{width:100px;}
+	.section_index_online .online_centerPart dl dd a{width:97px;}
+	.online_centerPart_list_container{width:270px;}
+	.section_index_online .online_centerPart .online_centerPart_list{width:280px;}
+	
+	.section_index_interaction .interaction_centerPart{width:385px; margin-left:11px;}
+	.section_index_interaction .interaction_centerPart dl{width:205px; padding-left:4px;}
+	.section_index_interaction .interaction_centerPart dt{width:20%;}
+	.section_index_interaction .interaction_centerPart dd{width:80%;}
+	
+	.section_right{display:none;}
+	
+.bottom_main_container{width:973px;}
+	.index_bottom_container .main_part ul{width:191px;}
+	.index_bottom_container .main_part .right_part{width:738px;}
+	.index_bottom_container .main_part .right_part_main table td{ float:left; width:23%; padding-left:2%; line-height:37px; }
+	
+	
+.section_index_news .btns ul li img{padding:10px 24px 10px 0;}
+
+.section_index_info .info_centerPart .news li a .middot{margin:0 7px 3px 0;}
+.section_index_info .info_centerPart .news a .mititle{padding-right:2px; width:25%;}
+
+/* 首页标题、摘要字数（根据1280、1003变动） */
+.txt_len_1003 { display:block; }
+.txt_len_1280 { display:none; }
